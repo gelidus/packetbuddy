@@ -12,7 +12,8 @@ While using packetbuddy structured approach, you need to:
   
 ľ.) You need to create application.coffe/js in the folder
 
-``` Base = require 'tcpbuddy/Application'
+```
+Base = require 'tcpbuddy/Application'
 
 module.exports = class Application extends Base
 
@@ -20,7 +21,8 @@ module.exports = class Application extends Base
     super(callback)
 
   run: () ->
-    super() ```
+    super
+```
     
 You also need app.coffee starting point:
 
