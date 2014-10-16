@@ -10,7 +10,7 @@ While using packetbuddy structured approach, you need to:
   - policies
   - tasks
   
-ľ.) You need to create application.coffe/js in the folder
+2.) You need to create application.coffe/js in the folder
 
 ```
 Base = require 'tcpbuddy/Application'
